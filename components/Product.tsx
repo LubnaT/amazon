@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { ProductProps } from 'typings'
+import { ProductProps} from '../typing'
 
 
-function Product({imgURL , name , price ,showPrice ,showName} : ProductProps) {
+function Product({imgURL , name , price ,showPrice ,showName} : any) {
   return (
     <div className=' bg-white justify-center flex flex-col'><img src={imgURL} alt={name} />
         {showName && <p className=' text-xl font-bold px-4 border-t'>{name}</p>}
