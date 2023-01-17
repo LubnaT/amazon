@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/logo.jpeg";
+import logo from "../app/assets/logo.jpeg";
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
