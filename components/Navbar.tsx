@@ -8,7 +8,7 @@ type Props = {}
 
 function Navbar({}: Props) {
   return (
-    <div className='bg-[#131921] p-2 flex text-white '>
+    <div className='bg-[#131921] p-2 flex text-white'>
     <div className='flex mx-4 items-center justify-between w-full space-x-4'>
     {/* amazonlogo  */}
         <img className='hover:border-2 border-white border-solid' src={logo.src}/>
