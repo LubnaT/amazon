@@ -1,9 +1,11 @@
+import Navbar2 from "../components/Navbar2";
 import Product from "../components/Product";
 import banner from "./assets/banner.jpg";
 
 export default function Home() {
   return (
     <div className="bg-slate-200 pb-56">
+      <Navbar2/>
       <div className=" max-w-[110rem]  mx-auto relative">
         <img className="" src={banner.src} />
         <div className=" absolute bg-gradient-to-t from-slate-200 to-transparent via-slate-200/50  bottom-0 z-10 w-full h-1/3 " />
