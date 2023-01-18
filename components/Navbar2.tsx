@@ -16,16 +16,16 @@ function Navbar2({}: Props) {
             <div className="mt-[0px] flex shrink grow overflow-hidden h-[20px] w-[850px]">
                 <div className="flex shrink grow w-[500px]">
                     <div className="flex flex-row shrink grow flex-wrap overflow-hidden w-[500px]"> 
-                        <a className="hover:border-2 border-white border-solid w-[40px] font-bold  mb-[8px]  pl-[6px] h-[20px] text-white text-sm">Sell</a>
-                        <a href="#bestseller" className="hover:border-2 border-white border-solid w-[90px] font-bold mb-[2px] pl-[6px]  h-[20px] text-white text-sm">Best Sellers</a>
-                        <a href="#todaysdeal" className="hover:border-2 border-white border-solid w-[100px] font-bold mb-[2px] pl-[6px] h-[20px] text-white text-sm">Today's Deal</a>
-                        <a className="hover:border-2 border-white border-solid w-[70px] font-bold  mb-[2px] pl-[6px] h-[20px] text-white text-sm">Mobiles</a>
-                        <a className="hover:border-2 border-white border-solid w-[130px] font-bold  mb-[2px] pl-[6px] text-white text-sm">Customer Service</a>
-                        <a className="hover:border-2 border-white border-solid w-[80px] font-bold  mb-[2px] pl-[6px] h-[20px] text-white text-sm">Electronics</a>
-                        <a className="hover:border-2 border-white border-solid w-[120px] font-bold mb-[2px] pl-[6px] h-[20px] text-white text-sm">Home & Kitchen</a>
-                        <a className="hover:border-2 border-white border-solid w-[60px] font-bold mb-[2px] pl-[6px] h-[20px] text-white text-sm">Fashion</a>
-                        <a className="hover:border-2 border-white border-solid w-[50px] font-bold  mb-[2px] pl-[6px] h-[20px] text-white text-sm">Books</a>
-                        <a className="hover:border-2 border-white border-solid w-[50px] font-bold mb-[2px] pl-[6px] h-[20px] text-white text-sm">Prime</a>
+                        <a className="hover:border-2 border-white border-solid w-[40px]   mb-[8px]  pl-[6px] h-[20px] text-white text-sm">Sell</a>
+                        <a href="#bestseller" className="hover:border-2 border-white border-solid w-[90px] mb-[2px] pl-[6px]  h-[20px] text-white text-sm">Best Sellers</a>
+                        <a href="#todaysdeal" className="hover:border-2 border-white border-solid w-[100px]  mb-[2px] pl-[6px] h-[20px] text-white text-sm">Today's Deal</a>
+                        <a className="hover:border-2 border-white border-solid w-[70px]  mb-[2px] pl-[6px] h-[20px] text-white text-sm">Mobiles</a>
+                        <a className="hover:border-2 border-white border-solid w-[130px] mb-[2px] pl-[6px] text-white text-sm">Customer Service</a>
+                        <a className="hover:border-2 border-white border-solid w-[80px] mb-[2px] pl-[6px] h-[20px] text-white text-sm">Electronics</a>
+                        <a className="hover:border-2 border-white border-solid w-[120px] mb-[2px] pl-[6px] h-[20px] text-white text-sm">Home & Kitchen</a>
+                        <a className="hover:border-2 border-white border-solid w-[60px] mb-[2px] pl-[6px] h-[20px] text-white text-sm">Fashion</a>
+                        <a className="hover:border-2 border-white border-solid w-[50px] mb-[2px] pl-[6px] h-[20px] text-white text-sm">Books</a>
+                        <a className="hover:border-2 border-white border-solid w-[50px] mb-[2px] pl-[6px] h-[20px] text-white text-sm">Prime</a>
                     </div>
                 </div>
             </div>
