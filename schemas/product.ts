@@ -11,6 +11,17 @@ export default defineType({
       type: 'string',
     }),
     defineField({
+      name: 'email',
+      title: 'Email',
+      type: 'string',
+      readOnly: true,
+    }),
+    defineField({
+      name: 'price',
+      title: 'Price',
+      type: 'number',
+    }),
+    defineField({
       name: 'slug',
       title: 'Slug',
       type: 'slug',

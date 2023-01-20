@@ -3,6 +3,7 @@ import logo from "../app/assets/logo.jpeg";
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import Link from 'next/link';
 
 type Props = {}
 
@@ -11,7 +12,7 @@ function Navbar({}: Props) {
     <div className='bg-[#131921] p-2 flex text-white'>
     <div className='flex mx-4 items-center justify-between w-full space-x-4'>
     {/* amazonlogo  */}
-        <img className='hover:border-2 border-white border-solid' src={logo.src}/>
+        <Link href="/"><img className='hover:border-2 border-white border-solid' src={logo.src}/></Link>
          {/* Hello address locatio */}
         <div className='font-normal flex  text-sm  whitespace-nowrap hover:border-2 border-white border-solid'>
             <LocationOnIcon className='mt-2 text-lg' />
