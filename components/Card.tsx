@@ -1,8 +1,8 @@
 import React from 'react'
-import home from '../app/assets/home.jpeg'
-import women from '../app/assets/women.jpg'
-import mens from '../app/assets/mens.jpg'
-import reward from '../app/assets/reward.jpg'
+import home from '../assets/home.jpeg'
+import women from '../assets/women.jpg'
+import mens from '../assets/mens.jpg'
+import reward from '../assets/reward.jpg'
 
 type Props = {}
 

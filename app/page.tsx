@@ -1,6 +1,6 @@
 import Navbar2 from "../components/Navbar2";
 import Product from "../components/Product";
-import banner from "./assets/banner.jpg";
+import banner from "../assets/banner.jpg";
 import Card from "../components/Card";
 import client from "../utils/client";
 import { groq } from "next-sanity";
