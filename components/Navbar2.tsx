@@ -13,7 +13,7 @@ function Navbar2({}: Props) {
                 </a>
             </div>
 
-            <div className="mt-[0px] flex p-4 overflow-hidden h-[20px] w-[850px]">
+            <div className="mt-[0px] flex  overflow-hidden h-[20px] w-[850px]">
                 <div className="flex shrink grow w-[500px]">
                     <div className="flex flex-row shrink grow flex-wrap overflow-hidden w-[500px]"> 
                         <a className="hover:border-2 border-white border-solid w-[40px]   mb-[8px]  pl-[6px] h-[20px] text-white text-sm">Sell</a>

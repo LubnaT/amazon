@@ -1,9 +1,12 @@
+"use client"
+
 import React from 'react'
 import logo from "../assets/logo.jpeg";
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import Link from 'next/link';
+import Cart from './Cart';
 
 type Props = {}
 
@@ -63,17 +66,7 @@ function Navbar({}: Props) {
         </div>
 
         {/* cart */}
-        <div className='flex  border-2 border-transparent hover:cursor-pointer hover:border-white border-solid'>
-         <div className=' font-medium flex flex-col items-end mr-0'>
-            <div className=' flex flex-col text-xl text-center scale-75 '>
-             <p className='h-3 text-orange-400'>0</p>
-             <span className="pl-2 flex item-center w-[60px] h-[40px] ">
-                <img className ="object-fit w-[60px] h-[60px]" src="https://www.freeiconspng.com/thumbs/cart-icon/cart-icon-16.png"/>
-             </span>
-            </div>
-         </div>
-         <div className='text-sm font-bold pt-6'>Cart</div>
-        </div>    
+        <Cart/>
 
     </div>
 
