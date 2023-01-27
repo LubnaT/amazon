@@ -27,6 +27,10 @@ const query = groq`
 }`
 
 const product = await client.fetch(query , {slug})
+
+const disper =  Math.round(Math.random() * 20);
+
+const newprice = product.price * (1 - (disper * 0.01))
   return (
     <div>
       {/* product div */}
@@ -48,7 +52,7 @@ const product = await client.fetch(query , {slug})
           <div className='max-w-8xl mx-auto grid  lg:grid-cols-2  md:grid-cols-1'>
             {/* 1st img div */}
             <div className='ml-[60px] mr-10'>
-              <img className='h-[650px] w-[500px]' src='https://m.media-amazon.com/images/I/714vSwERZUL._SL1500_.jpg'/>
+              <img className='h-[650px] w-[500px]' src={urlFor(product.mainImage)}/>
             </div>
             {/* midddle div content */}
             <div className='flex ml-0 pb-4'>
@@ -63,12 +67,11 @@ const product = await client.fetch(query , {slug})
                <div className='border-b-[1px] border-gray-400 ' >
                 <a>
                  <h2 className='text-2xl font-medium'>
-                  LG 8 Kg 5 Star Inverter Touch Control Fully-Automatic Front Load Washing Machine
-                  with In-Built Heater (FHM1408BDW, White, 6 Motion Direct Drive, 1400 RPM & Steam)
+                 {product.title}
                  </h2>
                 </a>
                 <a className='text-sm text-teal-600 hover:cursor-pointer hover:underline'>
-                  Visit the LG Store
+                  Visit the {product.seller.name}Store
                 </a>
                 {/* ratings div */}
                 <div className='flex space-x-4 mb-0'>
@@ -94,8 +97,10 @@ const product = await client.fetch(query , {slug})
               {/* product details div 2 */}
               <div className='mt-5 space-x-1 border-b-[1px] border-gray-400 pb-2'>
                 <p className='text-red-600 font-semibold'>Republic Day Sale</p>
-                <p className='text-2xl text-red-600 '>-23% <span className='text-3xl text-black -mt-4'>₹ 32,900</span></p>
-                <p className='text-slate-600 text-sm'>M.R.P.:₹ 42,900</p>
+                <p className='text-2xl text-red-600 '>{disper}% 
+                  <span className='text-3xl text-black -mt-4'>₹ {newprice}</span>
+                </p>
+                <p className='text-slate-600 text-sm'>M.R.P.:₹ {product.price}</p>
                 <p className='text-sm'>Inclusive of all taxes</p>
                 <p><span className='font-bold text-sm'>EMI</span> starts at ₹1,576. No Cost EMI available </p>
               </div>
